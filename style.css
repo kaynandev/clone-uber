@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+ #left-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    float: left;
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    
+    
+    
+ }
+
+h1{
+    font-family: bebas neue;
+    font-weight: lighter;
+    margin-left: 20px;
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+
+}
+
+#botão{
+    background-color: black;   
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+}
+#botão:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+#saiba{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+#right-cont{
+    background: url('imagens/pexels-george-ikwegbu-2379429.jpg');
+    width: 50vw;
+    height: 100vh;
+    float: right;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
